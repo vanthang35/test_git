@@ -1,0 +1,3 @@
+D:/LG/folder/simple_project/CMakeFiles/test.dir
+D:/LG/folder/simple_project/CMakeFiles/edit_cache.dir
+D:/LG/folder/simple_project/CMakeFiles/rebuild_cache.dir
