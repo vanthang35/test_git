@@ -1,40 +1,37 @@
-#include <vector>
-#include <algorithm> 
-#include <iostream>
-using namespace std;
-
-class solution
-{
-    public:
-    bool isValidPalindrome(string s)
-    {
+class Solution {
+public:
+    bool isPalindrome(string s) {
         if(s.size() == 0 || s.size() == 1) return true;
         int i(0), j(s.size() - 1);
-        while(s[i] == s[j] && i <j)
+        while( s[i] == s[j] && i < j)
         {
             i++;
             j--;
         }
-        return i>=j;
+        return i >= j;
     }
-    string longestPalindrome(string s)
-    {
+    string longestPalindrome(string s) {
         if(s.size() == 0 || s.size() == 1) return s;
+        int max = 0;
         string ret;
-        int max;
-        for(int i = 0; i <s.size(); i++)
+        string str;
+        for(int i = 0 ; i < s.size() - 1; i++)
         {
-            for(int j = s.size(); j> i + maxlen; j --)
+            for(int j = s.size() -1; j >= i + max; j--)
             {
-                if(s[j] == s[i]) continue;
-                string str = s.substr(i, j-i+1);
-                if(isValidPalindrome(str) && str.size() > maxnlen)
+                if( s[j] != s[i] ) continue;
+
+                str = s.substr(i, j-i +1);
+                if(isPalindrome(str) && str.size() > max)
                 {
-                    maxlen = str.size()
-                    ret = str
+                    max = str.size();
+                    ret = str;
+                    break;
                 }
+
             }
         }
-        return ret
+        return ret;
+
     }
-}
+};
