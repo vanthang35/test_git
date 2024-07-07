@@ -1,0 +1,3 @@
+D:/LG/folder/luyencode/build/CMakeFiles/person.dir
+D:/LG/folder/luyencode/build/CMakeFiles/edit_cache.dir
+D:/LG/folder/luyencode/build/CMakeFiles/rebuild_cache.dir
