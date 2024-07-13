@@ -119,4 +119,8 @@ CMakeFiles/person.dir/src/Student.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\tuple \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\array \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
- D:/LG/folder/luyencode/include/Person.h
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\quoted_string.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
+ D:/LG/folder/luyencode/include/Person.h \
+ D:/LG/folder/luyencode/include/Address.h

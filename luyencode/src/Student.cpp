@@ -2,8 +2,8 @@
 #include <Person.h>
 int Student::numStudents = 0;
 Student::Student(const string &fn, const string &ln, 
-        char  mi, const string &t, float avg, const string &course, const string &id) : Person(fn, ln, mi, t),
-        gpa(avg), currentCourse(course), studentId(id)
+        char  mi, const string &t, Address* add,float avg, const string &course,const string &id)
+        : Person(fn, ln, mi, t, add), gpa(avg), currentCourse(course), studentId(id)
 {
     numStudents++;
 }
@@ -25,6 +25,22 @@ void Student::Print() const
 {
     cout << GetTitle() << " " << GetFirstName() << " ";
     cout << "van thang" << endl;
+
+}
+void Student::ApplyUniversity()
+{
+
+}
+void Student::DropUniversity()
+{
+
+}
+void Student::RegisterCourse()
+{
+
+}
+void Student::CancelCourse()
+{
 
 }
 // void Student::EarnPhD()

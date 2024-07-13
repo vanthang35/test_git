@@ -129,6 +129,30 @@ person/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/build
 .PHONY : person/fast
 
+src/Address.obj: src/Address.cpp.obj
+.PHONY : src/Address.obj
+
+# target to build an object file
+src/Address.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/Address.cpp.obj
+.PHONY : src/Address.cpp.obj
+
+src/Address.i: src/Address.cpp.i
+.PHONY : src/Address.i
+
+# target to preprocess a source file
+src/Address.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/Address.cpp.i
+.PHONY : src/Address.cpp.i
+
+src/Address.s: src/Address.cpp.s
+.PHONY : src/Address.s
+
+# target to generate assembly for a file
+src/Address.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/Address.cpp.s
+.PHONY : src/Address.cpp.s
+
 src/Person.obj: src/Person.cpp.obj
 .PHONY : src/Person.obj
 
@@ -152,6 +176,54 @@ src/Person.s: src/Person.cpp.s
 src/Person.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/Person.cpp.s
 .PHONY : src/Person.cpp.s
+
+src/Professor.obj: src/Professor.cpp.obj
+.PHONY : src/Professor.obj
+
+# target to build an object file
+src/Professor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/Professor.cpp.obj
+.PHONY : src/Professor.cpp.obj
+
+src/Professor.i: src/Professor.cpp.i
+.PHONY : src/Professor.i
+
+# target to preprocess a source file
+src/Professor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/Professor.cpp.i
+.PHONY : src/Professor.cpp.i
+
+src/Professor.s: src/Professor.cpp.s
+.PHONY : src/Professor.s
+
+# target to generate assembly for a file
+src/Professor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/Professor.cpp.s
+.PHONY : src/Professor.cpp.s
+
+src/Room.obj: src/Room.cpp.obj
+.PHONY : src/Room.obj
+
+# target to build an object file
+src/Room.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/Room.cpp.obj
+.PHONY : src/Room.cpp.obj
+
+src/Room.i: src/Room.cpp.i
+.PHONY : src/Room.i
+
+# target to preprocess a source file
+src/Room.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/Room.cpp.i
+.PHONY : src/Room.cpp.i
+
+src/Room.s: src/Room.cpp.s
+.PHONY : src/Room.s
+
+# target to generate assembly for a file
+src/Room.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/Room.cpp.s
+.PHONY : src/Room.cpp.s
 
 src/Student.obj: src/Student.cpp.obj
 .PHONY : src/Student.obj
@@ -210,9 +282,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... person"
+	@echo "... src/Address.obj"
+	@echo "... src/Address.i"
+	@echo "... src/Address.s"
 	@echo "... src/Person.obj"
 	@echo "... src/Person.i"
 	@echo "... src/Person.s"
+	@echo "... src/Professor.obj"
+	@echo "... src/Professor.i"
+	@echo "... src/Professor.s"
+	@echo "... src/Room.obj"
+	@echo "... src/Room.i"
+	@echo "... src/Room.s"
 	@echo "... src/Student.obj"
 	@echo "... src/Student.i"
 	@echo "... src/Student.s"

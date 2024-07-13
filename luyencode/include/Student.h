@@ -14,15 +14,20 @@ class Student : public Person
     static int numStudents;
     public:
     Student();
-    Student(const string &, const string &, char, const string &, float, const string &, const string &);
+    Student(const string &, const string &, char, const string &, Address*, float, const string &, const string &);
     Student( const Student&);
     ~Student();
     void Print() const;
+
     float GetGPA() const {return gpa;}
     const string &GetCurrentCourse() const {return currentCourse;}
     const string &GetStudentId() const {return studentId;}
     void SetCurrentCourse(const string &);
     static int GetNumberStudents();
+    void ApplyUniversity();
+    void DropUniversity();
+    void RegisterCourse();
+    void CancelCourse();
     
 };
 #endif

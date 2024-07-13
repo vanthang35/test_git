@@ -69,11 +69,26 @@ include CMakeFiles/person.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/person.dir/flags.make
 
+CMakeFiles/person.dir/src/Address.cpp.obj: CMakeFiles/person.dir/flags.make
+CMakeFiles/person.dir/src/Address.cpp.obj: CMakeFiles/person.dir/includes_CXX.rsp
+CMakeFiles/person.dir/src/Address.cpp.obj: D:/LG/folder/luyencode/src/Address.cpp
+CMakeFiles/person.dir/src/Address.cpp.obj: CMakeFiles/person.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/LG/folder/luyencode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/person.dir/src/Address.cpp.obj"
+	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/person.dir/src/Address.cpp.obj -MF CMakeFiles/person.dir/src/Address.cpp.obj.d -o CMakeFiles/person.dir/src/Address.cpp.obj -c D:/LG/folder/luyencode/src/Address.cpp
+
+CMakeFiles/person.dir/src/Address.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/person.dir/src/Address.cpp.i"
+	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/LG/folder/luyencode/src/Address.cpp > CMakeFiles/person.dir/src/Address.cpp.i
+
+CMakeFiles/person.dir/src/Address.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/person.dir/src/Address.cpp.s"
+	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/LG/folder/luyencode/src/Address.cpp -o CMakeFiles/person.dir/src/Address.cpp.s
+
 CMakeFiles/person.dir/src/Person.cpp.obj: CMakeFiles/person.dir/flags.make
 CMakeFiles/person.dir/src/Person.cpp.obj: CMakeFiles/person.dir/includes_CXX.rsp
 CMakeFiles/person.dir/src/Person.cpp.obj: D:/LG/folder/luyencode/src/Person.cpp
 CMakeFiles/person.dir/src/Person.cpp.obj: CMakeFiles/person.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/LG/folder/luyencode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/person.dir/src/Person.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/LG/folder/luyencode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/person.dir/src/Person.cpp.obj"
 	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/person.dir/src/Person.cpp.obj -MF CMakeFiles/person.dir/src/Person.cpp.obj.d -o CMakeFiles/person.dir/src/Person.cpp.obj -c D:/LG/folder/luyencode/src/Person.cpp
 
 CMakeFiles/person.dir/src/Person.cpp.i: cmake_force
@@ -84,11 +99,41 @@ CMakeFiles/person.dir/src/Person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/person.dir/src/Person.cpp.s"
 	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/LG/folder/luyencode/src/Person.cpp -o CMakeFiles/person.dir/src/Person.cpp.s
 
+CMakeFiles/person.dir/src/Professor.cpp.obj: CMakeFiles/person.dir/flags.make
+CMakeFiles/person.dir/src/Professor.cpp.obj: CMakeFiles/person.dir/includes_CXX.rsp
+CMakeFiles/person.dir/src/Professor.cpp.obj: D:/LG/folder/luyencode/src/Professor.cpp
+CMakeFiles/person.dir/src/Professor.cpp.obj: CMakeFiles/person.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/LG/folder/luyencode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/person.dir/src/Professor.cpp.obj"
+	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/person.dir/src/Professor.cpp.obj -MF CMakeFiles/person.dir/src/Professor.cpp.obj.d -o CMakeFiles/person.dir/src/Professor.cpp.obj -c D:/LG/folder/luyencode/src/Professor.cpp
+
+CMakeFiles/person.dir/src/Professor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/person.dir/src/Professor.cpp.i"
+	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/LG/folder/luyencode/src/Professor.cpp > CMakeFiles/person.dir/src/Professor.cpp.i
+
+CMakeFiles/person.dir/src/Professor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/person.dir/src/Professor.cpp.s"
+	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/LG/folder/luyencode/src/Professor.cpp -o CMakeFiles/person.dir/src/Professor.cpp.s
+
+CMakeFiles/person.dir/src/Room.cpp.obj: CMakeFiles/person.dir/flags.make
+CMakeFiles/person.dir/src/Room.cpp.obj: CMakeFiles/person.dir/includes_CXX.rsp
+CMakeFiles/person.dir/src/Room.cpp.obj: D:/LG/folder/luyencode/src/Room.cpp
+CMakeFiles/person.dir/src/Room.cpp.obj: CMakeFiles/person.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/LG/folder/luyencode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/person.dir/src/Room.cpp.obj"
+	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/person.dir/src/Room.cpp.obj -MF CMakeFiles/person.dir/src/Room.cpp.obj.d -o CMakeFiles/person.dir/src/Room.cpp.obj -c D:/LG/folder/luyencode/src/Room.cpp
+
+CMakeFiles/person.dir/src/Room.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/person.dir/src/Room.cpp.i"
+	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/LG/folder/luyencode/src/Room.cpp > CMakeFiles/person.dir/src/Room.cpp.i
+
+CMakeFiles/person.dir/src/Room.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/person.dir/src/Room.cpp.s"
+	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/LG/folder/luyencode/src/Room.cpp -o CMakeFiles/person.dir/src/Room.cpp.s
+
 CMakeFiles/person.dir/src/Student.cpp.obj: CMakeFiles/person.dir/flags.make
 CMakeFiles/person.dir/src/Student.cpp.obj: CMakeFiles/person.dir/includes_CXX.rsp
 CMakeFiles/person.dir/src/Student.cpp.obj: D:/LG/folder/luyencode/src/Student.cpp
 CMakeFiles/person.dir/src/Student.cpp.obj: CMakeFiles/person.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/LG/folder/luyencode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/person.dir/src/Student.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/LG/folder/luyencode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/person.dir/src/Student.cpp.obj"
 	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/person.dir/src/Student.cpp.obj -MF CMakeFiles/person.dir/src/Student.cpp.obj.d -o CMakeFiles/person.dir/src/Student.cpp.obj -c D:/LG/folder/luyencode/src/Student.cpp
 
 CMakeFiles/person.dir/src/Student.cpp.i: cmake_force
@@ -103,7 +148,7 @@ CMakeFiles/person.dir/src/main.cpp.obj: CMakeFiles/person.dir/flags.make
 CMakeFiles/person.dir/src/main.cpp.obj: CMakeFiles/person.dir/includes_CXX.rsp
 CMakeFiles/person.dir/src/main.cpp.obj: D:/LG/folder/luyencode/src/main.cpp
 CMakeFiles/person.dir/src/main.cpp.obj: CMakeFiles/person.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/LG/folder/luyencode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/person.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/LG/folder/luyencode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/person.dir/src/main.cpp.obj"
 	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/person.dir/src/main.cpp.obj -MF CMakeFiles/person.dir/src/main.cpp.obj.d -o CMakeFiles/person.dir/src/main.cpp.obj -c D:/LG/folder/luyencode/src/main.cpp
 
 CMakeFiles/person.dir/src/main.cpp.i: cmake_force
@@ -116,20 +161,26 @@ CMakeFiles/person.dir/src/main.cpp.s: cmake_force
 
 # Object files for target person
 person_OBJECTS = \
+"CMakeFiles/person.dir/src/Address.cpp.obj" \
 "CMakeFiles/person.dir/src/Person.cpp.obj" \
+"CMakeFiles/person.dir/src/Professor.cpp.obj" \
+"CMakeFiles/person.dir/src/Room.cpp.obj" \
 "CMakeFiles/person.dir/src/Student.cpp.obj" \
 "CMakeFiles/person.dir/src/main.cpp.obj"
 
 # External object files for target person
 person_EXTERNAL_OBJECTS =
 
+person.exe: CMakeFiles/person.dir/src/Address.cpp.obj
 person.exe: CMakeFiles/person.dir/src/Person.cpp.obj
+person.exe: CMakeFiles/person.dir/src/Professor.cpp.obj
+person.exe: CMakeFiles/person.dir/src/Room.cpp.obj
 person.exe: CMakeFiles/person.dir/src/Student.cpp.obj
 person.exe: CMakeFiles/person.dir/src/main.cpp.obj
 person.exe: CMakeFiles/person.dir/build.make
 person.exe: CMakeFiles/person.dir/linkLibs.rsp
 person.exe: CMakeFiles/person.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:/LG/folder/luyencode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable person.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:/LG/folder/luyencode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable person.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/person.dir/objects.a
 	C:/MinGW/bin/ar.exe qc CMakeFiles/person.dir/objects.a @CMakeFiles/person.dir/objects1.rsp
 	C:/MinGW/bin/c++.exe -Wl,--whole-archive CMakeFiles/person.dir/objects.a -Wl,--no-whole-archive -o person.exe -Wl,--out-implib,libperson.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/person.dir/linkLibs.rsp

@@ -3,7 +3,8 @@
 
 #include <Person.h>
 
-Person::Person(const string &fl, const string &ln, char, const string &title)
+Person::Person(const string &fn, const string &ln, char mi, const string &t, Address* add)
+: firstName(fn), lastName(ln), middleInitial(mi), title(t), address(add)
 {
 
 }
@@ -11,15 +12,9 @@ Person::~Person()
 {
 
 }
+
 void Person::Print() const
 {
 
 }
-void Person::IsA() const
-{
 
-}
-void Person::Greeting(const string &) const
-{
-
-}

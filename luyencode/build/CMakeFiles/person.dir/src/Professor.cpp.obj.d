@@ -1,5 +1,6 @@
-CMakeFiles/person.dir/src/main.cpp.obj: \
- D:/LG/folder/luyencode/src/main.cpp \
+CMakeFiles/person.dir/src/Professor.cpp.obj: \
+ D:/LG/folder/luyencode/src/Professor.cpp \
+ D:/LG/folder/luyencode/include/Professor.h \
  D:/LG/folder/luyencode/include/Person.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
@@ -122,7 +123,4 @@ CMakeFiles/person.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\quoted_string.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
- D:/LG/folder/luyencode/include/Address.h \
- D:/LG/folder/luyencode/include/Student.h \
- D:/LG/folder/luyencode/include/Professor.h \
- D:/LG/folder/luyencode/include/Room.h
+ D:/LG/folder/luyencode/include/Address.h
