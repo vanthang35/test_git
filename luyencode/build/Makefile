@@ -153,6 +153,30 @@ src/Address.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/Address.cpp.s
 .PHONY : src/Address.cpp.s
 
+src/Department.obj: src/Department.cpp.obj
+.PHONY : src/Department.obj
+
+# target to build an object file
+src/Department.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/Department.cpp.obj
+.PHONY : src/Department.cpp.obj
+
+src/Department.i: src/Department.cpp.i
+.PHONY : src/Department.i
+
+# target to preprocess a source file
+src/Department.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/Department.cpp.i
+.PHONY : src/Department.cpp.i
+
+src/Department.s: src/Department.cpp.s
+.PHONY : src/Department.s
+
+# target to generate assembly for a file
+src/Department.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/Department.cpp.s
+.PHONY : src/Department.cpp.s
+
 src/Person.obj: src/Person.cpp.obj
 .PHONY : src/Person.obj
 
@@ -249,6 +273,30 @@ src/Student.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/Student.cpp.s
 .PHONY : src/Student.cpp.s
 
+src/University.obj: src/University.cpp.obj
+.PHONY : src/University.obj
+
+# target to build an object file
+src/University.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/University.cpp.obj
+.PHONY : src/University.cpp.obj
+
+src/University.i: src/University.cpp.i
+.PHONY : src/University.i
+
+# target to preprocess a source file
+src/University.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/University.cpp.i
+.PHONY : src/University.cpp.i
+
+src/University.s: src/University.cpp.s
+.PHONY : src/University.s
+
+# target to generate assembly for a file
+src/University.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/src/University.cpp.s
+.PHONY : src/University.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -285,6 +333,9 @@ help:
 	@echo "... src/Address.obj"
 	@echo "... src/Address.i"
 	@echo "... src/Address.s"
+	@echo "... src/Department.obj"
+	@echo "... src/Department.i"
+	@echo "... src/Department.s"
 	@echo "... src/Person.obj"
 	@echo "... src/Person.i"
 	@echo "... src/Person.s"
@@ -297,6 +348,9 @@ help:
 	@echo "... src/Student.obj"
 	@echo "... src/Student.i"
 	@echo "... src/Student.s"
+	@echo "... src/University.obj"
+	@echo "... src/University.i"
+	@echo "... src/University.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

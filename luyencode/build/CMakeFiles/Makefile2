@@ -81,12 +81,12 @@ clean: CMakeFiles/person.dir/clean
 CMakeFiles/person.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/LG/folder/luyencode/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target person"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/LG/folder/luyencode/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target person"
 .PHONY : CMakeFiles/person.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/person.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/LG/folder/luyencode/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/LG/folder/luyencode/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/person.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:/LG/folder/luyencode/build/CMakeFiles 0
 .PHONY : CMakeFiles/person.dir/rule

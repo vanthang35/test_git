@@ -1,6 +1,6 @@
-CMakeFiles/person.dir/src/main.cpp.obj: \
- D:/LG/folder/luyencode/src/main.cpp \
- D:/LG/folder/luyencode/include/Person.h \
+CMakeFiles/person.dir/src/University.cpp.obj: \
+ D:/LG/folder/luyencode/src/University.cpp \
+ D:/LG/folder/luyencode/include/University.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
@@ -101,6 +101,8 @@ CMakeFiles/person.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
+ D:/LG/folder/luyencode/include/Address.h \
+ D:/LG/folder/luyencode/include/Student.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iomanip \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\locale \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets_nonio.h \
@@ -122,15 +124,12 @@ CMakeFiles/person.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\quoted_string.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
- D:/LG/folder/luyencode/include/Address.h \
- D:/LG/folder/luyencode/include/Student.h \
+ D:/LG/folder/luyencode/include/Person.h \
  D:/LG/folder/luyencode/include/Professor.h \
- D:/LG/folder/luyencode/include/University.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\vector \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
- D:/LG/folder/luyencode/include/Department.h \
- D:/LG/folder/luyencode/include/Room.h
+ D:/LG/folder/luyencode/include/Department.h

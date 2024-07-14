@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/person.dir/src/Address.cpp.obj"
   "CMakeFiles/person.dir/src/Address.cpp.obj.d"
+  "CMakeFiles/person.dir/src/Department.cpp.obj"
+  "CMakeFiles/person.dir/src/Department.cpp.obj.d"
   "CMakeFiles/person.dir/src/Person.cpp.obj"
   "CMakeFiles/person.dir/src/Person.cpp.obj.d"
   "CMakeFiles/person.dir/src/Professor.cpp.obj"
@@ -9,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/person.dir/src/Room.cpp.obj.d"
   "CMakeFiles/person.dir/src/Student.cpp.obj"
   "CMakeFiles/person.dir/src/Student.cpp.obj.d"
+  "CMakeFiles/person.dir/src/University.cpp.obj"
+  "CMakeFiles/person.dir/src/University.cpp.obj.d"
   "CMakeFiles/person.dir/src/main.cpp.obj"
   "CMakeFiles/person.dir/src/main.cpp.obj.d"
   "libperson.dll.a"
